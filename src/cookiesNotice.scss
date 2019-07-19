@@ -1,0 +1,32 @@
+.madln-cookiesNotice-wrap {
+    background-color: #ffffff;
+    -webkit-box-shadow: 0px -1px 18px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px -1px 18px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px -1px 18px 0px rgba(0,0,0,0.75);
+    padding: 20px 60px 20px 20px;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    a.btn-cookiesOK {
+        background-color: #175a1f;
+        display: inline-block;
+        width: auto;
+        padding: 10px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        text-decoration: none;
+        color: #ffffff;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        &:hover, &:focus{
+            background-color: #0eb222;
+        }
+    }
+}
+.madln-cookiesNotice {
+    position: relative;
+}
+
